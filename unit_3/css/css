@@ -1,1 +1,8 @@
-css
+body {
+	text-align: center;
+	background: images/batter.jpg;
+	background-size: cover;
+}
+h1, p {
+
+}
