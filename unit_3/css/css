@@ -1,7 +1,9 @@
 body {
 	text-align: center;
-	background: images/batter.jpg;
+	background: "img:images/batter.jpg";
 	background-size: cover;
+	color:255,255,255;
+	font-family: Helvetica;
 }
 h1, p {
 
