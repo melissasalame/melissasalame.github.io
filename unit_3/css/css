@@ -1,6 +1,6 @@
 body {
 	text-align: center;
-	background: "img:images/batter.jpg";
+	background: "images/cheers.jpg";
 	background-size: cover;
 	color:255,255,255;
 	font-family: Helvetica;
