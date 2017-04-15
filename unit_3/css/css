@@ -1,5 +1,5 @@
 body {
-	background: img("images/cheers.jpg");
+	background: img("images/asterik.jpg");
 	background-size: cover;
 }
 h1, p {
