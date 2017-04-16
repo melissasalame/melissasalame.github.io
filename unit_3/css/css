@@ -1,7 +1,7 @@
 body {
 	
-	background: "images/batter.jpg";
-	background-size: cover;
+	background: images/batter.jpg;
+	background-size: "cover";
 	background-color: #ffa500;
 	text: #fff;
 }
