@@ -4,7 +4,7 @@
 	margin: 0;
 }
 header{
-	background-color: #38769A;
+	background-color: #3F9ABD;
 	font-family: 'PT Serif', serif;
 }
 h1{
@@ -12,6 +12,7 @@ h1{
 	font-family: 'PT Serif', serif;
 	font-size: 40px;
 	text-decoration-color: #122533;
+	background-color: #3F9ABD;
 }
 #slogan {
 	font-family: 'Alfa Slab One', cursive;
