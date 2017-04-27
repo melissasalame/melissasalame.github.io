@@ -1,3 +1,56 @@
-body {
-	
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|PT+Serif');
+* {
+	padding: 0;
+	margin: 0;
+}
+main 
+img{width: 100%;
+}
+body{
+	font-size: 16px;/*1em=16px*/
+	text-align: center;
+}
+header{
+	background-color: #38769A
+	font-family: 'PT Serif', serif;
+}
+h1{
+	text-align: left;
+	font-family: 'PT Serif', serif;
+	font-size: 40px;
+	text-decoration-color: #122533;
+}
+#slogan {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 2em;
+	text-decoration-color: #255,0,0;
+}
+h2{
+	font-size: 1em;
+	font-family: 'Alfa Slab One', cursive;
+	line-height: 2em;
+	margin: 1em;
+}
+h3{
+	font-family: 'PT Serif', serif;
+	font-size: 1em;
+
+}
+
+.important{
+	width: 30em;
+	margin: 2em auto;
+}
+p{
+	font-family: 'PT Serif', serif;
+	font-size: 1em;
+	line-height:1.5em;
+	margin: 1em;
+}
+ul{
+	font-family: Helvetica, serif;
+	font-size: 16px;
+	line-height:1.5em;
+	margin: 1em;
+	text-align: left;
 }
