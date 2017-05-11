@@ -6,28 +6,47 @@
 }
 header{
 	background-color: #3F9ABD;
+	border: solid #0D161C .10em;
+	text-align: left;
 	font-family: 'PT Serif', serif;
+	font-size: 40px;
+	padding: 1em;
 }
 section {
-	padding:4em 0;
+	padding: 1em 0;
+}
+article {
+	border-bottom: solid #0E1E2E .10em;
 }
 .logo{
 	text-align: left;
 	font-family: 'PT Serif', serif;
 	font-size: 40px;
-	text-decoration-color: #122533;
-	background-color: #3F9ABD;
 }
 #slogan {
 	font-family: 'Alfa Slab One', cursive;
 	font-size: 2em;
 }
-img{width: 100%;
+img {
+	width: 100%;
+}
+nav {
+	text-align: center;
+	padding: 1em;
+	background-color: #cccccc;
+}
+nav a{
+	margin-left: 10px;
+	margin-right: 10px;
+	text-decoration-color: #0E1E2E;
+}
+nav a:hover{
+	color: #dd0000;
 }
 h2{
 	font-size: 1em;
 	font-family: 'Alfa Slab One', cursive;
-	line-height: 2em;
+	line-height: 1.5em;
 	margin: 1em;
 }
 h3{
@@ -38,22 +57,29 @@ body{
 	font-size: 16px;/*1em=16px*/
 	text-align: center;
 }
+strong{
+	font-size: 1.25em;
+}
 .important{
-	width: 30em;
+	width: 40em;
 	margin: 2em auto;
+	padding: 1em 0;
 }
 .results{
-	width: 30em;
+	width: 40em;
 	margin: 2em auto;
 }
 p{
 	font-family: 'PT Serif', serif;
 	font-size: 1em;
-	line-height:1.5em;
+	line-height: 1.5em;
 	margin: 1em;
 }
+article {
+	border-bottom: solid 1px #ccc;
+}
 ul{
-	font-family: Helvetica, serif;
+	font-family: 'PT Serif', serif;
 	font-size: 16px;
 	line-height:1.5em;
 	margin: 1em;
@@ -65,4 +91,25 @@ ul{
 	background-repeat: no-repeat;
 	height:90vh;
 	padding: 6em 0 0;
+}
+footer {
+	padding: 2em;
+	background-color: #3F9ABD;
+	border-color: #0D161C;
+	border: solid;
+	border-width: .10em;
+	clear: both;
+}
+#wrapper{
+	width: 1080px;
+	margin: 0 auto;
+}
+aside {
+	width: 320px;
+	float: right;
+	padding-top: 6em;
+}
+main {
+	width: 720px;
+	float: left;
 }
