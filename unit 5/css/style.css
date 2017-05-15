@@ -39,6 +39,8 @@ nav a{
 	margin-left: 10px;
 	margin-right: 10px;
 	text-decoration-color: #0E1E2E;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 nav a:hover{
 	color: #dd0000;
